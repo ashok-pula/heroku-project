@@ -1,0 +1,7 @@
+<% for(let i=0;i<newItemLists.length;i++){ %>
+  <div class="item">
+  <input type="checkbox" name="" value="">
+  <p><%=newItemLists[i].name %></p>
+
+</div>
+<%  }%>
